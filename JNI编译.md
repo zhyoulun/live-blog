@@ -72,6 +72,8 @@ g++ -fPIC \
 
 ## 运行java程序
 
+`java com.zhyoulun.HelloJni`
+
 ```
 ➜  src ls
 com com_zhyoulun_HelloJni.cpp com_zhyoulun_HelloJni.h libhello.dylib
@@ -82,6 +84,6 @@ Hello world!
 ## 参考
 
 * \[Java通过JNI调用C/C++动态链接库之HelloWorld\]\(http://notes.maxwi.com/2017/04/19/java-jni-cpp-hello/\)
-
+* 
 
 
