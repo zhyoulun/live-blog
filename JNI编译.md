@@ -66,7 +66,7 @@ g++ -fPIC \
 
 * `/System/Library/Frameworks/JavaVM.framework/Versions/Current/Headers`含有`jni.h`文件
 * `-I`后面跟的是jni所需要的头文件路径
-* `-shared `编译器生成共享链接库
+* `-shared`编译器生成共享链接库
 * `-fPIC` 选项使编译器在编译阶段生成与位置无关的代码，以使共享库能够在内存中被正确加载，`PIC`即`Position, Independent Code`。使用`-shared`选项时必须有该选项，否则编译期会出错
 * 如果是C代码，使用gcc编译时，需要通过`-Wl,--add-stdcall-alias`向链接器传递链接选项，以避免出现`UnsatisfiedLinkError`错误
 
@@ -83,7 +83,9 @@ Hello world!
 
 ## 参考
 
-* \[Java通过JNI调用C/C++动态链接库之HelloWorld\]\(http://notes.maxwi.com/2017/04/19/java-jni-cpp-hello/\)
-* 
+* http://notes.maxwi.com/2017/04/19/java-jni-cpp-hello/
+
+
+
 
 
