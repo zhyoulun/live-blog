@@ -83,9 +83,8 @@ Hello world!
 
 ## 参考
 
-* http://notes.maxwi.com/2017/04/19/java-jni-cpp-hello/
-
-
+* [http://notes.maxwi.com/2017/04/19/java-jni-cpp-hello/](http://notes.maxwi.com/2017/04/19/java-jni-cpp-hello/)
+* [http://adamish.com/blog/archives/620](http://adamish.com/blog/archives/620)
 
 
 
