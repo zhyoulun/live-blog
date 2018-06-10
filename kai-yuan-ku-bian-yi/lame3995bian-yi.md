@@ -1,5 +1,9 @@
 # Lame3.99.5编译
 
+下载地址：[http://lame.sourceforge.net/](http://lame.sourceforge.net/)
+
+编译
+
 ```
 ./configure --prefix "/Users/zhangyoulun/codes/c/lame-3.99.5/output/build" \
     --disable-shared \
@@ -10,7 +14,7 @@ make install
 
 生成了`bin/` `lib/` `include/` `share/`四个文件夹
 
-其中
+其中：
 
 * `--disable-shared`: 通常是GNU标准中关闭动态链接库的选项，一般是在编译出命令行工具的时候，期望命令行工具可以单独使用，而不需要动态链接库的设置
 * `--disable-frontend`: 不编译出LAME的可执行文件
@@ -55,7 +59,7 @@ int main() {
     std::cout << "ret: " << ret << std::endl;
     encoder.Encode();
     encoder.Destroy();
-    
+
     std::cout << "Hello, World!" << std::endl;
     return 0;
 }
@@ -155,7 +159,6 @@ public:
 
 
 #endif //LAME_STUDY_MP3_ENCODER_H
-
 ```
 
 
